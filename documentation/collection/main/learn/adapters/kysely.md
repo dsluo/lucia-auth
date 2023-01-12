@@ -61,7 +61,7 @@ Define interfaces for each table in your database or generate them automatically
 The `Database` interface must be of the following structure.
 
 ```ts
-import { ColumnType, Generated } from "kysely";
+import type { ColumnType, Generated } from "kysely";
 
 type BigIntColumnType = ColumnType<number | bigint>;
 
